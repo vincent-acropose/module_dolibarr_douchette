@@ -6,7 +6,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/class/html.form.class.php';
 dol_include_once('/douchette/class/douchette.class.php');
 dol_include_once('/douchette/lib/douchette.lib.php');
 
-if(empty($user->rights->douchette->read)) accessforbidden();
+if(empty($user->rights->of->of->lire)) accessforbidden();
 
 $langs->load('douchette@douchette');
 
@@ -15,7 +15,7 @@ $id = GETPOST('id', 'int');
 $ref = GETPOST('ref');
 
 $mode = 'view';
-if (empty($user->rights->douchette->write)) $mode = 'view'; // Force 'view' mode if can't edit object
+if (empty($user->rights->of->of->write)) $mode = 'view'; // Force 'view' mode if can't edit object
 else if ($action == 'create' || $action == 'edit') $mode = 'edit';
 
 $PDOdb = new TPDOdb;
