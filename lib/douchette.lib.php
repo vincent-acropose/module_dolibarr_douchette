@@ -65,7 +65,7 @@ function douchette_prepare_head(Tdouchette $object)
     global $db, $langs, $conf, $user;
     $h = 0;
     $head = array();
-    $head[$h][0] = dol_buildpath('/douchette/card.php', 1).'?id='.$object->getId();
+    $head[$h][0] = dol_buildpath('/douchette/card.php', 1).'?action=modifyOF';
     $head[$h][1] = $langs->trans("douchetteCard");
     $head[$h][2] = 'card';
     $h++;

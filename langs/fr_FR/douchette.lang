@@ -6,4 +6,6 @@ ATMAbout = Ce module a été développé par <a href="http://www.atm-consulting.
 douchetteSetup = Configuration du module douchette
 douchetteAbout = A propos du module douchette
 
-douchette=douchette
+douchette=Douchette
+
+douchetteCard=Choix OF
