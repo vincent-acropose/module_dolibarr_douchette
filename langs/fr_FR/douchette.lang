@@ -8,4 +8,10 @@ douchetteAbout = A propos du module douchette
 
 douchette=Douchette
 
-douchetteCard=Choix OF
+douchetteCard=Production
+
+# Stock Product
+modifStockFiche=Modifier Stock
+douchetteMenuProduct=Gestion par Stock
+douchetteStock=Modifier Stock Produit
+refProduct=Ref Produit

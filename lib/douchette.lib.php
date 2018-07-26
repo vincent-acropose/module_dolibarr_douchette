@@ -60,7 +60,7 @@ function douchetteAdminPrepareHead()
  * @param 	Tdouchette	$object		Object company shown
  * @return 	array				Array of tabs
  */
-function douchette_prepare_head(Tdouchette $object)
+function douchette_prepare_head($object)
 {
     global $db, $langs, $conf, $user;
     $h = 0;

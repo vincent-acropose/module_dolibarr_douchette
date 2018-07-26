@@ -117,6 +117,7 @@ print '<input type="hidden" name="action" value="set_CONSTNAME">';
 print $form->selectyesno("CONSTNAME",$conf->global->CONSTNAME,1);
 print '<input type="submit" class="button" value="'.$langs->trans("Modify").'">';
 print '</form>';
+print '<div class="inline-block"><div class="classfortooltip inline-block inline-block" style="padding: 0px; padding: 0px; padding-right: 3px !important;"><img src="/dolibarr/htdocs/theme/eldy/img/info.png" alt="" title="" style="vertical-align: middle;"></div></div>';
 print '</td></tr>';
 
 $var=!$var;
